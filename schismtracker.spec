@@ -40,9 +40,9 @@ for size in 16 22 24 32 36 48 64 72 96 128 192; do
 done
 %__install -D -m 0644 icons/schism-icon.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/%{name}.svg
 
-%__install -d %{buildroot}%{_desktopdir}
+%__install -d %{buildroot}%{_datadir}/applications
 
-cat > %{buildroot}%{_desktopdir}/%{name}.desktop << EOF
+cat > %{buildroot}%{_datadir}/applications/%{name}.desktop << EOF
 [Desktop Entry]
 Name=Schism Tracker
 Comment=%{summary}
@@ -62,6 +62,6 @@ EOF
 %doc AUTHORS COPYING NEWS README
 %{_bindir}/schismtracker
 %{_datadir}/icons/hicolor/*/*/%{name}*
-%{_desktopdir}/%{name}.desktop
+%{_datadir}/applications/%{name}.desktop
 %{_mandir}/*/%{name}.*
 
