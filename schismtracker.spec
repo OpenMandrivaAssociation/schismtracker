@@ -28,6 +28,7 @@ bug-fixes and changes to improve IT playback.
 %build
 autoreconf -fi
 %configure2_5x
+mkdir auto
 %make
 
 %install
