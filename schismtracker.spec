@@ -1,6 +1,6 @@
 Name:		schismtracker
 Version:	20120425
-Release:	1
+Release:	2
 Summary:	Music editor, Impulse Tracker clone
 License:	GPLv2
 Group:		Sound
