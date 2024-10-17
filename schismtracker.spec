@@ -4,7 +4,7 @@ Release:	2
 Summary:	Music editor, Impulse Tracker clone
 License:	GPLv2
 Group:		Sound
-URL:		http://schismtracker.org/
+URL:		https://schismtracker.org/
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(x11)
